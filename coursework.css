@@ -1,0 +1,59 @@
+body {
+    background-color:#FCF9C6;
+    }
+nav {
+    background-color: rgba(112, 194, 183, 0.158);
+    height: 50pt;
+    word-spacing: 10px;
+    text-align: center;
+}
+div{
+    width: 100px;
+    padding: 120px;
+    font-size: 20px;
+    font-family: "montserrat";
+    transition: 0.5s;
+    margin-left: 150px;
+        
+}
+.bio{
+    
+    background-color: #1F4690;
+    margin-top: -100px;
+    margin-left: 3px;
+    
+}
+.photo{
+    background-color: #F15412;
+    margin-left: 337px;
+   
+}
+.educ{
+    background-color: #34B3F1;
+    margin-left: 344px;
+
+}
+.hobbies{
+    background-color: #7C3E66;
+    margin-left: 5px;
+}
+.contact{
+    background-color: #5FD068;
+    margin-left: 335px;
+    }
+.bio, .photo {
+    display: inline-block;
+}
+.hobbies, .contact {
+    display: inline-block;
+}
+
+div:hover{
+    transform: scale(1.1);
+    background: white;
+    box-shadow: 2px 2px 5px;
+    font-size: 25px;
+}
+.bindex{
+    margin-left: 150px;
+}   
